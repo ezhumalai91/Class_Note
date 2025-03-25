@@ -1,0 +1,102 @@
+Python Task-2
+---
+
+### 1. *Print each element of a list.*  
+*Sample Input:* [10, 20, 30]  
+*Sample Output:*  
+
+10
+20
+30
+
+
+---
+
+### 2. *Find the sum of all elements in a list.*  
+*Sample Input:* [1, 2, 3, 4]  
+*Sample Output:* 10
+
+---
+
+### 3. *Find the largest element in a list.*  
+*Sample Input:* [15, 22, 8, 19]  
+*Sample Output:* 22
+
+---
+
+### 4. *Count the number of even numbers in a list.*  
+*Sample Input:* [2, 5, 7, 8, 10]  
+*Sample Output:* 3
+
+---
+
+### 5. *Create a new list with squares of each element from an existing list.*  
+*Sample Input:* [1, 2, 3]  
+*Sample Output:* [1, 4, 9]
+
+---
+
+### 6. *Find the product of all elements in a list.*  
+*Sample Input:* [2, 3, 4]  
+*Sample Output:* 24
+
+---
+
+### 7. *Count the occurrences of a specific value in a list.*  
+*Sample Input:* List = [2, 3, 4, 2, 5], Value = 2  
+*Sample Output:* 2
+
+---
+
+### 8. *Print the index and value of each element in a list.*  
+*Sample Input:* [5, 10, 15]  
+*Sample Output:*  
+
+Index 0: 5
+Index 1: 10
+Index 2: 15
+
+
+---
+
+### 9. *Check if a list contains only positive numbers.*  
+*Sample Input:* [3, 5, 7, -1]  
+*Sample Output:* False
+
+---
+
+### 10. *Filter out even numbers from a list.*  
+*Sample Input:* [1, 2, 3, 4, 5]  
+*Sample Output:* [1, 3, 5]
+
+---
+
+### 11. *Reverse a list using a for loop.*  
+*Sample Input:* [10, 20, 30]  
+*Sample Output:* [30, 20, 10]
+
+---
+
+### 12. *Count the number of elements greater than a specific value.*  
+*Sample Input:* List = [1, 5, 8, 12], Threshold = 5  
+*Sample Output:* 2
+
+---
+
+### 13. *Check if all elements in a list are unique.*  
+*Sample Input:* [1, 2, 3, 4]  
+*Sample Output:* True
+
+---
+
+### 14. *Find the difference between the largest and smallest elements in a list.*  
+*Sample Input:* [10, 5, 20, 8]  
+*Sample Output:* 15
+
+---
+
+### 15. *Find all pairs of numbers in a list whose sum is equal to a target value.*  
+*Sample Input:* List = [2, 4, 3, 5], Target = 7  
+*Sample Output:* [(2, 5), (4, 3)]  
+
+---

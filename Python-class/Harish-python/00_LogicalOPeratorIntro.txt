@@ -1,0 +1,29 @@
+Logical Operator:
+
+        1.and
+
+A       B           Result(and===>(Multply))
+
+True    True        True
+True    False       False
+False   True        False
+False   False       False
+
+
+
+        2.or
+
+A       B           Result(or===>(addition))
+
+True    True        True
+True    False       True
+False   True        True
+False   False       False
+
+        3.not
+
+A       Result
+
+True    False
+False   True
+

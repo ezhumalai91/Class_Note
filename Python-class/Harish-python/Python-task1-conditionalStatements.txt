@@ -1,0 +1,98 @@
+Task
+---
+
+### 1. Check if a number is positive, negative, or zero.  
+**Sample Input:** `5`  
+**Sample Output:** `The number is positive.`  
+
+---
+
+### 2. Check if a number is even or odd.  
+**Sample Input:** `7`  
+**Sample Output:** `The number is odd.`  
+
+---
+
+### 3. Determine the largest of two numbers.  
+**Sample Input:** `10, 20`  
+**Sample Output:** `The second number is larger.`  
+
+---
+
+### 4. Check if a year is a leap year.  
+**Sample Input:** `2024`  
+**Sample Output:** `The year is a leap year.`  
+
+---
+
+### 5. Determine if a person is eligible to vote (age >= 18).  
+**Sample Input:** `16`  
+**Sample Output:** `You are not eligible to vote.`  
+
+---
+
+### 6. Find the largest among three numbers.  
+**Sample Input:** `12, 45, 7`  
+**Sample Output:** `The largest number is 45.`  
+
+---
+
+### 7. Check if a character is a vowel or consonant.  
+**Sample Input:** `a`  
+**Sample Output:** `The character is a vowel.`  
+
+---
+
+### 8. Determine the grade of a student based on marks:  
+   - 90 and above: A  
+   - 80-89: B  
+   - 70-79: C  
+   - Below 70: Fail  
+**Sample Input:** `85`  
+**Sample Output:** `Grade: B.`  
+
+---
+
+### 9. Check if a number is divisible by 5 and 11.  
+**Sample Input:** `55`  
+**Sample Output:** `The number is divisible by 5 and 11.`  
+
+---
+
+### 10. Verify if a triangle is valid based on its angles.  
+**Sample Input:** `60, 60, 60`  
+**Sample Output:** `The triangle is valid.`  
+
+---
+
+### 11. Determine if a number is a palindrome.  
+**Sample Input:** `121`  
+**Sample Output:** `The number is a palindrome.`  
+
+---
+
+### 12. Check if a person is eligible for a senior citizen discount (age >= 60).  
+**Sample Input:** `65`  
+**Sample Output:** `You are eligible for a senior citizen discount.`  
+
+---
+
+### 13. Verify if a string is empty or not.  
+**Sample Input:** `""`  
+**Sample Output:** `The string is empty.`  
+
+---
+
+### 14. Find the quadrant of a point (x, y) in a Cartesian plane.  
+**Sample Input:** `x = -4, y = 5`  
+**Sample Output:** `The point is in Quadrant II.`  
+
+---
+
+### 15. Check if a number lies in a specific range (10 to 50).  
+**Sample Input:** `25`  
+**Sample Output:** `The number lies in the range.`  
+
+---
+
+Let me know if you need further details or these questions saved in a `.txt` file!
