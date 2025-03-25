@@ -1,0 +1,108 @@
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
+
+class Product {
+    String name;
+    int count;
+
+    Product(String name, int count) {
+        this.name = name;
+        this.count = count;
+    }
+}
+
+public class ProductManagement {
+    private static Map<Integer, Product> productMap = new HashMap<>();
+    private static Scanner scanner = new Scanner(System.in);
+
+    public static void main(String[] args) {
+        while (true) {
+            System.out.println("1. Add Product");
+            System.out.println("2. Update Product");
+            System.out.println("3. View Product");
+            System.out.println("4. Delete Product");
+            System.out.println("5. Exit");
+            System.out.print("Enter any option: ");
+            
+            int option = scanner.nextInt();
+            scanner.nextLine(); // Consume newline
+
+            switch (option) {
+                case 1:
+                    addProduct();
+                    break;
+                case 2:
+                    updateProduct();
+                    break;
+                case 3:
+                    viewProduct();
+                    break;
+                case 4:
+                    deleteProduct();
+                    break;
+                case 5:
+                    System.out.println("Exiting...");
+                    return;
+                default:
+                    System.out.println("Invalid option. Please try again.");
+            }
+        }
+    }
+
+    private static void addProduct() {
+        System.out.print("Enter product ID: ");
+        int id = scanner.nextInt();
+        scanner.nextLine(); // Consume newline
+        System.out.print("Enter product name: ");
+        String name = scanner.nextLine();
+        System.out.print("Enter product count: ");
+        int count = scanner.nextInt();
+
+        productMap.put(id, new Product(name, count));
+        System.out.println("Product added successfully.");
+    }
+
+    private static void updateProduct() {
+        System.out.print("Enter product ID to update: ");
+        int id = scanner.nextInt();
+        scanner.nextLine(); // Consume newline
+
+        if (productMap.containsKey(id)) {
+            System.out.print("Enter new product name: ");
+            String name = scanner.nextLine();
+            System.out.print("Enter new product count: ");
+            int count = scanner.nextInt();
+            
+            productMap.put(id, new Product(name, count));
+            System.out.println("Product updated successfully.");
+        } else {
+            System.out.println("Product not found.");
+        }
+    }
+
+    private static void viewProduct() {
+        System.out.print("Enter product ID to view: ");
+        int id = scanner.nextInt();
+
+        if (productMap.containsKey(id)) {
+            Product product = productMap.get(id);
+            System.out.println("Product ID: " + id);
+            System.out.println("Product Name: " + product.name);
+            System.out.println("Product Count: " + product.count);
+        } else {
+            System.out.println("Product not found.");
+        }
+    }
+
+    private static void deleteProduct() {
+        System.out.print("Enter product ID to delete: ");
+        int id = scanner.nextInt();
+
+        if (productMap.remove(id) != null) {
+            System.out.println("Product deleted successfully.");
+        } else {
+            System.out.println("Product not found.");
+        }
+    }
+}

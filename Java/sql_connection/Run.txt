@@ -1,0 +1,10 @@
+javac -cp .:mysql-connector-j-8.3.0.jar CRUDOperations.java
+
+SET CLASSPATH=.;mysql-connector-j-8.3.0.jar
+
+java CRUDOperations
+
+
+
+
+java -cp .:mysql-connector-j-8.3.0.jar CRUDOperations.class

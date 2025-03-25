@@ -1,0 +1,3 @@
+Java Swing:
+
+Swing is a part of Java Foundation Classes (JFC) that is used to create window-based applications.

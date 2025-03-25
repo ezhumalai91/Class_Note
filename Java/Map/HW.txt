@@ -1,0 +1,7 @@
+1. Add product
+2. Update product
+3. View product
+4. delete product
+Enter any option:
+
+product_id	product_name	product_count

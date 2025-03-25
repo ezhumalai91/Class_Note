@@ -1,0 +1,4 @@
+Java Networking
+Java Networking is a concept of connecting two or more computing devices together so that we can share resources.
+
+Java socket programming provides facility to share data between different computing devices.

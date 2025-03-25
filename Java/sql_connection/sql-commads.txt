@@ -1,0 +1,34 @@
+Open the Command Prompt (Windows) or Terminal (Mac/Linux).
+
+Connect to your MySQL database. Use the following command and enter your MySQL root password when prompted:
+
+bash
+Copy code
+mysql -u root -p
+Replace root with your MySQL username if it's different.
+
+Once connected, select the database you want to use. If your database is java_studentdb, use the following command:
+
+sql
+Copy code
+USE java_studentdb;
+View the tables. You can use the following command to see all the tables in the current database:
+
+sql
+Copy code
+SHOW TABLES;
+This will display a list of tables in the java_studentdb database.
+
+View table structure. If you want to see the structure of a specific table, you can use the DESCRIBE command followed by the table name. For example, to see the structure of the student table:
+
+sql
+Copy code
+DESCRIBE student;
+This will display information about the columns (fields) in the student table.
+
+Once you've finished viewing the tables, you can exit the MySQL command-line client by typing:
+
+sql
+Copy code
+exit;
+This will return you to the command prompt.

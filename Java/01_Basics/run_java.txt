@@ -1,0 +1,11 @@
+Open---> cmd
+
+winkey+R--->type cmd---->type enter--->cd path---->type enter--->
+	
+
+Compile:
+javac filename.java
+
+Run:
+java classname
+
