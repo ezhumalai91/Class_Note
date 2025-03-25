@@ -1,0 +1,50 @@
+Class and Object
+Encapsulation
+Abstraction
+Polymorphism
+Inheritance
+
+
+Abstraction:
+The class helps us to group data members and member functions using available access specifiers.
+
+Access specifiers
+Members declared as public in a class can be accessed from anywhere in the program.
+Members declared as private in a class, can be accessed only from within the class. 
+
+
+Polymorphism:
+Polymorphism is an important concept of object-oriented programming. It simply means more than one form. That is, the same entity (function or operator) behaves differently in different scenarios.
+
+// C++ program to overload sum() function
+
+#include <iostream>
+using namespace std;
+
+// Function with 2 int parameters
+int sum(int num1, int num2) {
+    return num1 + num2;
+}
+
+// Function with 2 double parameters
+double sum(double num1, double num2) {
+    return num1 + num2;
+}
+
+// Function with 3 int parameters
+int sum(int num1, int num2, int num3) {
+    return num1 + num2 + num3;
+}
+
+int main() {
+    // Call function with 2 int parameters
+    cout << "Sum 1 = " << sum(5, 6) << endl;
+
+    // Call function with 2 double parameters
+    cout << "Sum 2 = " << sum(5.5, 6.6) << endl;
+
+    // Call function with 3 int parameters
+    cout << "Sum 3 = " << sum(5, 6, 7) << endl;
+
+    return 0;
+}

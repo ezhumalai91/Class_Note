@@ -1,0 +1,10 @@
+download
+https://www.msys2.org/
+
+cmd
+pacman -S mingw-w64-ucrt-x86_64-gcc
+
+
+
+env set
+C:\msys64\ucrt64\bin

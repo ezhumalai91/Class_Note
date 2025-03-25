@@ -1,0 +1,41 @@
+
+https://www.trytoprogram.com/cplusplus-programming/multiple-inheritance/
+
+
+Single Inheritance:
+
+The inheritance in which a single derived class is inherited from a single base class is known as the Single Inheritance.
+
+
+Single Inheritance Syntax
+
+class A          // base class
+{
+    ..........
+};
+class B : acess_specifier A         // derived class
+{
+    ...........
+} ;
+
+
+Multiple Inheritance:
+
+A class can be derived from more than one parent
+
+
+Single Inheritance Syntax
+
+class A          // base class1
+{
+    ..........
+};
+class B          // base class2
+{
+    ..........
+};
+
+class C : acess_specifier A,acess_specifier B         // derived class
+{
+    ...........
+} ;

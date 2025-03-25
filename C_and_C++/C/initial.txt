@@ -1,0 +1,12 @@
+Comments
+ignoring the code
+Comments provide a useful explanation and convey the intention behind the use of a particular approach.
+
+Types of Comments in C
+
+Single-line comments
+Multi-line comments
+
+
+Tokens in C
+Tokens in C is the most important element to be used in creating a program in C. We can define the token as the smallest individual element in C.

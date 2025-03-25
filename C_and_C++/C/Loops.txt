@@ -1,0 +1,44 @@
+C for Loop
+In programming, a loop is used to repeat a block of code until the specified condition is false.
+
+C programming has three types of loops:
+
+for loop
+while loop
+do...while loop
+
+for Loop
+The syntax of the for loop is:
+
+for (initializationStatement; testExpression; updateStatement)
+{
+    // statements inside the body of loop
+}
+
+
+
+while Loop:
+while Loop is an entry-controlled loop.
+This loop can be used to iterate a part of code while 
+the given condition remains true.
+
+Syntax:
+	
+while(condition)
+{
+   statements;
+increment/decrement;
+}
+
+
+
+do...while Loop:
+	This is exit controlled loops.It allow repetitive execution of a 
+block of code based on a condition that is checked after entering the loop.
+
+syntax:
+
+do {
+     statements;
+     increment/decrement;
+}while(condition);

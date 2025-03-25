@@ -1,0 +1,14 @@
+Keywords in C
+
+Keywords in C can be defined as the pre-defined or the reserved words having its own importance, and each keyword has its own functionality
+
+auto	double	int	struct
+break	else	long	switch
+case	enum	register	typedef
+char	extern	return	union
+const	float	short	unsigned
+continue	for	signed	void
+default	goto	sizeof	volatile
+do	if	static	while
+
+
