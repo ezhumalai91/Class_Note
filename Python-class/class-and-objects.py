@@ -6,7 +6,7 @@ Class:
 Syntax:
 
             class class_name:
-                Statemet
+                Statement
 
                 
 Note:  __init__ is a constructor function.
