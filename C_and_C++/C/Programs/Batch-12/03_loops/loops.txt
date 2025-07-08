@@ -1,0 +1,30 @@
+Loop:
+In programming, a loop is used to repeat a block of code until the specified condition is false.
+
+Types of loops:
+    1. for loop
+    2. While loop
+    3. do...while loop
+
+1. for loop
+When you know exactly how many times you want to loop through a block of code, use the for loop instead of a while loop.
+syntax:
+
+for(initialization; condition; increment/decrement)
+{
+    statements;
+}
+
+2. while loop:
+
+syntax:
+
+while(condition)
+{
+    statements;
+    increment/decrement;
+}
+
+3. do...while loop:
+
+

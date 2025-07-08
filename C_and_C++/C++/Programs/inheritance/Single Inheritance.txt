@@ -39,3 +39,46 @@ class C : acess_specifier A,acess_specifier B         // derived class
 {
     ...........
 } ;
+
+
+
+Mulilevel Inheritance:
+
+The process of deriving a class from another derived class
+
+
+
+Mulilevel Inheritance Syntax
+
+class A          // base class
+{
+    ..........
+};
+class B : acess_specifier A         // derived class
+{
+    ...........
+} ;
+
+class C : acess_specifier B        // derived class
+{
+    ...........
+} ;
+
+
+Hierarchical inheritance:
+The process of deriving multiple classes from a single base class.
+
+Syntax:
+
+Class A  
+{  
+   ............  
+};  
+Class B: access_specifier A  
+{  
+   .........  
+};  
+Class C: access_specifier A 
+{  
+  ............. 
+}; 

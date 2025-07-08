@@ -1,0 +1,6 @@
+set of instructions that are used to execute particular tasks
+
+compiler is a software that converts the
+source code to the machine code
+
+ two types of software
